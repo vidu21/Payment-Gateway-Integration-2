@@ -18,13 +18,13 @@ footer{
   * {
     box-sizing: border-box;
   }
-  .Contact-form
+  .Contact
   {
     width: 500px;
     font-size: 20px;
     padding: 5px;
  }
-  .Contact-form input,label,textarea,button
+  .textStyle
   {
     width: 90%;
     padding: 10px;
