@@ -8,6 +8,11 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
   }
+footer{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
   * {
