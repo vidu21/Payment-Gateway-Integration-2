@@ -1,7 +1,8 @@
 <?php
 if(isset($_POST['submit'])){
+    $to = "officialpurposeforproject@gmail.com";
     $name = $_POST['name'];
-    $email = $_POST['Email'];
+    $from = $_POST['Email'];
     $message = $_POST['Message'];
     
     if (empty($name) || empty($email) || empty($message))
