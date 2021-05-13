@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
     $from = $_POST['Email'];
     $message = $_POST['Message'];
     
-    if (empty($name) || empty($email) || empty($message))
+    if (empty($name) || empty($from) || empty($message))
     {
         echo "Please Fill all the details";
     }
