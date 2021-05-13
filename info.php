@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
     }
     else
     {
-        mail("varunrana8@gmail.com", "PTE NGO MESSAGE", $message, "From: $name < $email > ");
+        mail("officialpurposeforproject@gmail.com", "PTE NGO MESSAGE", $message, "From: $name < $email > ");
         echo "<script type='text/javascript'>alert('Message sent Successfully');window.history.go(-1);
         </script>";
     }
