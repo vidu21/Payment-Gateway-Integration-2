@@ -16,5 +16,4 @@ if(isset($_POST['submit'])){
     }
 }
 header("Location: https://varun-payment-integration.herokuapp.com/contact.html");
-exit();
 ?>
